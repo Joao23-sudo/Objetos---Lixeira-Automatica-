@@ -10,6 +10,8 @@ Como primeiro projeto de IoT estávamos visando o que utilizamos no dia-a-dia qu
 
 O produto-ﬁnal do projeto foi a criação de uma lixeira automática. Assim que ligado, o sensor do protótipo detectava a presença de uma pessoa com a intenção abrir a lixeira, que automaticamente manda um sinal para o microcontrolador NodeMCU, que transmitia para o computador via cabo micro USB. O software Arduino IDE então passava a sua programação de volta para o microcontrolador, que transmitia a informação de abrir a lixeira, ou exibir uma mensagem no MQTT Dash.
 
+[Clique aqui](https://www.youtube.com/watch?v=jzSzF4YRMc4) Para assistir o vídeo
+
 # Hardware Utilizados
 
   1 - 1x NodeMCU ESP8266
@@ -31,7 +33,7 @@ Posicione o NodeMCU da melhor onde voce pode fazer a conexão com os sensores e
 
 Ligamos os cabos no NodeMCU com o sensor HC-SR04.
 
-Podemos acompanhar melhor o que foi dito acima atráves do diagrama do circuito eletroeletrônico.
+Podemos acompanhar melhor o que foi dito acima atráves do [diagrama do circuito eletroeletrônico](https://github.com/Joao23-sudo/Objetos---Lixeira-Automatica-/blob/main/Circuito%20eletronico.png).
 
 Para melhor compreender como fica o resultado final do projeto montado, segue imagem abaixo:
 
@@ -39,6 +41,7 @@ Para melhor compreender como fica o resultado final do projeto montado, segue im
 
 # Software Desenvolvido
 
-Para programar o que vamos desenvolver devemos primeiramente baixar o Arduino IDE e caso não tenha esse Software você pode fazer o download.
+Para programar o que vamos desenvolver devemos primeiramente baixar o Arduino IDE e caso não tenha esse Software você pode fazer o download [Clique Aqui](https://www.arduino.cc/en/software/)
 
 Após a instalação do Arduino IDE, vamos instalar dentro dele as bibliotecas necessárias: O esp8266 by ESP8266 Community, que permite que o microcontrolador NodeMcu seja reconhecido, o PubSubClient e os tópicos publishers e subscribers, para a comunicação com o MQTT, tornando possível a utilização do mqtt.
+
